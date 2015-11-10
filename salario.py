@@ -1,4 +1,4 @@
-﻿# -*- coding: latim1 -*-
+﻿
 horas_trab = int(input("Informe o numero de horas trabalhadas em mês: "))
 print (horas_trab)
 salario_hora = int(input("informe o valor do salario por hora: "))
@@ -25,3 +25,11 @@ def tabuada (num):
 
 num= int(input("Informe um numero: "))
 tabuada (num)
+
+def tabuada1 ():
+	for multiplicado in range (1,11):
+		print ("Tabuada do: ", multiplicado)
+		for multiplicador in range (0,11):
+			print (multiplicador, " x ", multiplicado, " = ",  multiplicador*multiplicado)
+		print ("________________________________")
+tabuada1()
