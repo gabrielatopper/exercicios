@@ -18,3 +18,10 @@ def selvagem (num1,num2):
         resultado = num1*num2
         return resultado
 selvagem (8,8)
+
+def tabuada (num):
+	for multiplicador in range (0,11):
+		print (multiplicador*num)
+
+num= int(input("Informe um numero: "))
+tabuada (num)
