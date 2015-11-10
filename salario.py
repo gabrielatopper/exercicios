@@ -8,3 +8,8 @@ print(salario_hora)
 
 ## hahahahaha
 print ("guerrerira selvagem")
+
+def soma_selvagem(num1,num2):
+	resultado = num1+num2
+	return resultado
+soma_selvagem (2+2)
