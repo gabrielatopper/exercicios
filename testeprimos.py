@@ -1,4 +1,4 @@
-# -*- coding:latin1 -*-
+ # -*- coding:latin1 -*-
 def teste1_100(num):
 	n = num
 	if not(n==2) and (n%2==0):
