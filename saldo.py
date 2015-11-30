@@ -6,7 +6,7 @@ debito = float (input ("Informe o debito: "))
 print(debito)
 credito = float (input("Informe o credito: "))
 print(credito)
-saldo_atual = (saldo - debito + credito)
+saldo_atual = ((saldo - debito) + credito)
 if saldo_atual>= 0:
 	print("Saldo Positivo")
 else:
