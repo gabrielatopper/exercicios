@@ -1,10 +1,12 @@
-total_estoque = 0
+total_valor = 0
 media = 0
-valor_mercadorias = int (input("Informe o valor de cada mercadoria: "))
+num_mercadorias = int (raw_input("Informe o total de mercadorias:"))
 
-for i in range (1, +1):
-	num_mercadorias = int (input("Informe o total de mercadorias:"))
-	print (num_mercadorias)
-total_estoque = total_estoque + valor_mercadorias
-media = total_estoque / num_mercadorias
+for i in range (0, num_mercadorias):
+	valor_mercadorias = int (raw_input("Informe o valor de cada mercadoria: "))
+	total_valor = total_valor + valor_mercadorias
+
+print (num_mercadorias)
+media = total_valor / num_mercadorias
+print (total_valor)
 print(media)

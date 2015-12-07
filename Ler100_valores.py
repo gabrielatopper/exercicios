@@ -1,8 +1,6 @@
 num = int(raw_input("Informe um numero: "))
 menor = num
 maior = num 
-print (menor)
-print (maior)
 for x in range (1, 9):
 	num = int (raw_input("informe um numero: "))
 	if ((num <= menor) and (num >=maior)):
@@ -12,5 +10,5 @@ for x in range (1, 9):
 		menor = num
 	elif ((num >= maior) and (num >= menor)):
 		maior = num
-	print (maior)
-	print (menor)
+print (maior)
+print (menor)
